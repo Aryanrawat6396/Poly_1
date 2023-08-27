@@ -1,12 +1,14 @@
-# METACRAFTERS-POLYGON-MODULE-1
+# ERC20 Goerli to Mumbai Bridge Using fxPortal
+This project demonstrates how to use the fxPortal contracts to transfer ERC721 tokens from Goerli to Mumbai.
 
+# Description
 This is my NFT Project, in which I was tasked to deploy an NFT collection on the Ethereum blockchain, Map the collection to Polygon, and Transfer assets over via the Polygon Bridge.
 
 ## Installation
 To get started with the project, follow these steps:
 
 1. clone this repository :
-    `git clone https://github.com/Palakkkkkkkkkk/METACRAFTERS-POLYGON-MODULE-1.git`
+    `https://github.com/Aryanrawat6396/Poly_1.git`
    
 2. Install the required dependencies :
      `npm install`
@@ -29,13 +31,11 @@ Run the following command to batch-mint NFTs using the deployed ERC721 contract:
 Run the following commands to approve and deposit the minted NFTs from Ethereum to the Polygon Mumbai network using the FxPortal Bridge:
 
 `npx hardhat run scripts/approveDeposit.js --network goerli`
-##Video Walkthrough
-
-https://www.loom.com/share/563a1bb752504c63a840896bf21aeeb6?sid=ba9b7dee-f34e-45a4-8b96-da07a8509a98
 
 
 ## Author
-Hardik Jain
+Aryan Rawat
+aryanrawat5621@gmail.com
 
 ## LICENSE
 This project is licensed under the [MIT License](LICENSE).
